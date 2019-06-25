@@ -1,28 +1,15 @@
 # Docker-Falsk-Redis
-### Description: 
-  #### 'AWS CloudFormation Sample Template SNS_Publish_To_SQS:
-  Sample template showing how to grant rights so that you can publish SNS notifications
-  to an SQS queue. Note that you will need to specify the CAPABILITY_IAM flag when
-  you create the stack to allow this template to execute. You can do this through
-  the AWS management console by clicking on the check box acknowledging that you understand
-  this template creates IAM resources or by specifying the CAPABILITY_IAM flag to
-  the cfn-create-stack command line tool or CreateStack API call. **WARNING** This
-  template creates an Amazon SQS queue and an Amazon SNS topic. You will be billed
-  for the AWS resources used if you create a stack from this template.'
+### Description:
+On this page you build a simple Python web application running on Docker Compose. The application uses the Flask framework and maintains a hit counter in Redis. While the sample uses Python, the concepts demonstrated here should be understandable even if you’re not familiar with it.
   
 ### STEPS:
-#### 1) Upload CloudWatchlogsWithSNS.Yaml
-#### 2) Upload instances.yaml 
-#### 3) Upload sns.yaml 
-  
-
+#### 1) Download this repository in a specific folder then open terminal and move to that folder where you save your downloaded files.
 
 ~~~
-Upload CloudWatchlogsWithSNS.yaml File.
+docker-compose up 
 ~~~
 
-**Description:**
-Upload this file in aws-cloudformation. This Stack create Enviroment for Ec2 Instance. It create Vpc with 1 Public subnet, which having internet access. Then it create Public Security Group for Ec2 Instance. It also create Outputs of some resources which we use later. 
+#### 2) Then go to any browser and type localhost:5000 to access the flask application with redis database.
 
 
 
