@@ -10,12 +10,10 @@ Download this repository in a specific folder then open terminal and move to tha
 docker-compose up 
 ~~~
 
-
-
-#### STEP 2
-Then go to any browser and type localhost:5000 in search to access the flask application with redis database.
-
-
-<img src= "https://github.com/sikandarqaisar/getting-started-with-docker-compose-file/blob/master/img.png" width="600" height="600">
-#### STEP 3 
+#### STEP 2 
 After that type localhost:80 in search this will open your html webpage.
+
+
+#### STEP 3
+Then go to any browser and type localhost:5000 in search to access the flask application with redis database.
+<img src= "https://github.com/sikandarqaisar/getting-started-with-docker-compose-file/blob/master/img.png" width="600" height="600">
