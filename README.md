@@ -17,9 +17,5 @@ Then go to any browser and type localhost:5000 in search to access the flask app
 
 
 <img src= "https://github.com/sikandarqaisar/getting-started-with-docker-compose-file/blob/master/img.png" width="600" height="600">
-
-
-
-
 #### STEP 3 
 After that type localhost:80 in search this will open your html webpage.
