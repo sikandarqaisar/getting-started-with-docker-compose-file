@@ -1,0 +1,20 @@
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/code
+    environment:
+      FLASK_ENV: development
+  redis:
+    image: "redis:alpine"
+
+  nginx: 
+    image: nginx:latest
+    volumes:
+      - ./:/usr/share/nginx/html/
+    ports:
+      - 80:80
+      - 443:443
