@@ -10,4 +10,5 @@ docker-compose up
 ~~~
 
 2) Then go to any browser and type localhost:5000 in search to access the flask application with redis database.
+<img src= "https://github.com/sikandarqaisar/CloudWatch_Alarm_Publish_To_SQS.yaml-cloudFormation/blob/master/img.jpg" width="600" height="600">
 3) After that type localhost in search this will open your html webpage.
