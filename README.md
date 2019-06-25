@@ -21,4 +21,5 @@ Then go to any browser and type localhost:5000 in search to access the flask app
 
 
 
-#### STEP 3 After that type localhost in search this will open your html webpage.
+#### STEP 3 
+After that type localhost:80 in search this will open your html webpage.
